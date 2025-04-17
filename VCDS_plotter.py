@@ -9,4 +9,14 @@ Begin working on a VCDS log viewer with interactive plotting.
 
 @author: noursec
 """
+folder = "VCDS logs"
+file = "LOG-01-IDE00149_&11.CSV"
 
+print_lines = 20
+
+with open(f'{folder}/{file}', 'r') as f:
+    i=0
+    for line in f:
+        if i<print_lines:
+            print(line)
+        i+=1
