@@ -1,0 +1,283 @@
+Tuesday,08,April,2025,17:58:52:57411
+VCDS -- Windows Based VAG/VAS Emulator Running on Windows 10 x64
+VCDS Version: 24.7.1.0 (x64)  HEX-V2 CB: 0.4643.4
+Data version: 20240919 DS356.3
+www.Ross-Tech.com
+
+
+VIN: 3VWM17AU8JM756857   License Plate: 
+Mileage: 90753km-56391mi   Repair Order: 
+
+
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+
+Chassis Type: AU-VW37 (3Q0)
+Scan: 01 03 08 09 15 16 17 19 22 42 44 52 5F
+
+VIN: 3VWM17AU8JM756857   Mileage: 90753km-56391miles
+
+01-Engine -- Status: OK 0000
+03-ABS Brakes -- Status: OK 0000
+08-Auto HVAC -- Status: OK 0000
+09-Cent. Elect. -- Status: OK 0000
+15-Airbags -- Status: OK 0000
+16-Steering wheel -- Status: OK 0000
+17-Instruments -- Status: OK 0000
+19-CAN Gateway -- Status: OK 0000
+22-AWD -- Status: OK 0000
+42-Door Elect, Driver -- Status: OK 0000
+44-Steering Assist -- Status: OK 0000
+52-Door Elect, Pass. -- Status: OK 0000
+5F-Information Electr. -- Status: OK 0000
+-------------------------------------------------------------------------------
+Address 01: Engine (J623-CXBB)       Labels:. 06K-907-425-V1.clb
+   Part No SW: 8V0 906 264 M    HW: 06K 907 425 B
+   Component: 1.8l R4 TFSI  H13 0001  
+   Revision: --H13---    CVN: 100AD09E
+   Coding: 311900122426002F0000
+   Shop #: WSC 00066 790 00072
+   ASAM Dataset: EV_ECM18TFS0208V0906264M 001003
+   ROD: EV_ECM18TFS020_VW37.rod
+   VCID: 46D54548C829E90A257-8012
+   VINID: 0E69DD04746521A7471462051C31190BA1
+
+No fault code found.
+Readiness: 1110 1101
+
+-------------------------------------------------------------------------------
+Address 03: ABS Brakes (J104)       Labels:* 5Q0-907-379-ESP-V1.clb
+   Part No SW: 5Q0 614 517 AQ    HW: 5Q0 614 517 AF
+   Component: ESC           H62 0400  
+   Revision: 00000000    Serial number: 52157000000243
+   Coding: 43FA6AA134250972407F030580CA29C2562C9002C001943C00435050E009430000010312121212B435351919323200
+   Shop #: WSC 01383 790 50316
+   ASAM Dataset: EV_Brake1UDSContiMK100ESP 036010
+   ROD: EV_Brake1UDSContiMK100ESP_036_VW37.rod
+   VCID: 00599350AA8D073A5FB-8054
+
+No fault code found.
+
+-------------------------------------------------------------------------------
+Address 08: Auto HVAC (J301)       Labels:| 5G0-907-426.clb
+   Part No SW: 5GM 907 426 G    HW: 5GM 907 426 G
+   Component: AC Manuell    H03 2001  
+   Revision: 00001K05    
+   Coding: 02020004200110000000000000000002
+   Shop #: WSC 01383 790 50316
+   ASAM Dataset: EV_ACManueBHBVW37X 004134
+   ROD: EV_ACManueBHBVW37X_004_VW37.rod
+   VCID: 4CC17760D645135AF33-8018
+
+   Fresh air blower control module (front): 
+
+   A/C pressure/coolant temperature sensor: 
+
+No fault code found.
+
+-------------------------------------------------------------------------------
+Address 09: Cent. Elect. (J519)       Labels:. 5Q0-937-08X-V2.clb
+   Part No SW: 5Q0 937 087 AR    HW: 5Q0 937 087 AN
+   Component: BCM PQ37BOSCH 034 0243  
+   Revision: --------    Serial number: C86428081701LG Dataset Number: V03935264HC 0001
+   Shop #: WSC 00066 790 00249
+   ASAM Dataset: EV_BodyContrModul1UDSBosc 018001
+   ROD: EV_BCMBOSCH_018.rod
+   VCID: 0B43B47C93CB54623A9-805E
+
+   Wiper motor control module: 
+   Subsystem 1 - Part No SW: 5G1 955 119 A    HW: 5G1 955 119   Labels: 5QX-955-119-V1.CLB
+   Component: WWS    170707  043 0551 
+   Serial number: 97022066170722103249
+   Coding: 0E4DDD
+
+   Rain/Light Recognition Sensor: 
+   Subsystem 2 - Part No SW: 5Q0 955 559 B    HW: 5Q0 955 559 B  Labels: 5Q0-955-547.CLB
+   Component: RLS  042 0105 
+   Serial number: S3Y17M05D26H09M42S05
+   Coding: 00A8DD
+
+No fault code found.
+
+-------------------------------------------------------------------------------
+Address 15: Airbags (J234)       Labels:| 5Q0-959-655.clb
+   Part No SW: 5Q0 959 655 J    HW: 5Q0 959 655 J
+   Component: AirbagVW20    010 0830  
+   Serial number: 003GCR08GZC0 Dataset Number: V03935251DR 0001
+   Coding: 8CCCFC00000000005000001AC24800000065
+   Shop #: WSC 01383 790 50316
+   ASAM Dataset: EV_AirbaVW20SMEVW37X 002144
+   ROD: EV_AirbaVW20SMEVW37X_VW37.rod
+   VCID: 47CB484CCF23F002DE1-8012
+
+   Seat occupied recognition passenger side: 
+   Subsystem 1 - Part No SW: 4M0 959 339 B    HW: 4M0 959 339 B
+   Component: BF-Gewichtss.  H13 0022 
+   Serial number: IBH000000000007K8EV/
+   Coding: 303135
+
+   Crash sensor for side airbag: driver side: 
+   Subsystem 2 - Part No SW: -----------    HW: 480 000 707 17
+   Component: SideSensor_Df  001 0887 
+   Serial number: 357000000002598D852O
+   Coding: 2D2D2D
+
+   Front Passenger's Side Airbag Crash Sensor: 
+   Subsystem 3 - Part No SW: -----------    HW: 480 000 707 17
+   Component: SideSensor_Pf  001 0887 
+   Serial number: 35800000000F698D852$
+   Coding: 2D2D2D
+
+   Rear Side Airbag Crash Sensor (on driver's side): 
+   Subsystem 4 - Part No SW: -----------    HW: 480 401 707 17
+   Component: SideSensor_Dr  000 6149 
+   Serial number: 3510001BF2699985D47M
+   Coding: 2D2D2D
+
+   Passenger side rear thorax airbag crash sensor: 
+   Subsystem 5 - Part No SW: -----------    HW: 480 400 307 17
+   Component: SideSensor_Pr  000 6149 
+   Serial number: 3520001B725E6141938$
+   Coding: 2D2D2D
+
+   Crash sensor for front airbag: driver side: 
+   Subsystem 6 - Part No SW: -----------    HW: 480 400 707 17
+   Component: FrontSensor_D  001 6149 
+   Serial number: 3550002AB23C4E45619A
+   Coding: 2D2D2D
+
+   Crash sensor for front airbag: front passenger side: 
+   Subsystem 7 - Part No SW: -----------    HW: 480 400 707 17
+   Component: FrontSensor_P  001 6149 
+   Serial number: 3560002AB23C4E45D23D
+   Coding: 2D2D2D
+
+No fault code found.
+
+-------------------------------------------------------------------------------
+Address 16: Steering wheel (J527)       Labels:| 5Q0-953-549.clb
+   Part No SW: 5Q0 953 507 FT    HW: 5Q0 953 549 F
+   Component: Lenks. Modul  003 0140  
+   Revision: --------    Serial number: 14071704401205
+   Coding: 0400
+   Shop #: WSC 00000 000 00000
+   ASAM Dataset: EV_SMLSKLOMQB 020002
+   ROD: EV_SMLSKLOMQB_018_VW37.rod
+   VCID: 0D47BA64EDDF5A5224D-8058
+
+No fault code found.
+
+-------------------------------------------------------------------------------
+Address 17: Instruments (J285)       Labels:| 5G0-920-XXX-17.clb-SRI3
+   Part No SW: 5G1 920 840 C    HW: 5G1 920 840 C
+   Component: KOMBI         242 0310  
+   Coding: 0BB41005A180CF0502082B001000000000000000
+   Shop #: WSC 00066 790 00072
+   ASAM Dataset: EV_DashBoardVDDMQBAB 009060
+   ROD: EV_DashBoardVDDMQBAB_009_VW26.rod
+   VCID: 270BE8CC6F6310023E1-8072
+
+No fault code found.
+
+-------------------------------------------------------------------------------
+Address 19: CAN Gateway (J533)       Labels:| 3Q0-907-530-V1.clb
+   Part No SW: 3Q0 907 530 F    HW: 3Q0 907 530 B
+   Component: GW MQB Mid    517 5304  
+   Serial number: 05091700840011 Dataset Number: V03935266ZJ 0001
+   Coding: 0101000830085900FB0020080A0F00000001070000000000000000000000
+   Shop #: WSC 00066 790 07030
+   GVL: 01D03C0000000000400C00000000480000000000000000000000000000000000
+   ASAM Dataset: EV_GatewNF 013023
+   ROD: EV_GatewNF_VW37.rod
+   VCID: 323D099854A165AA99F-8066
+
+   Generator: 
+
+   Multifunction steering wheel control module: 
+   Subsystem 2 - Part No SW: 5G0 959 442 P    HW: 5G0 959 442 P  Labels: 3C8-959-537.CLB
+   Component: E221__MFL-DC1  H17 0103 
+   Serial number: 33170001615360011439
+   Coding: 30FFFF
+
+No fault code found.
+
+-------------------------------------------------------------------------------
+Address 22: AWD (J492)       Labels:| 0CQ-907-554-V1.clb
+   Part No SW: 0CQ 907 554 H    HW: 0CQ 525 130 
+   Component: Haldex4Motion H52 7083  
+   Serial number: HA1-00006.06.17 Dataset Number: v1260x015G0 0000
+   Coding: 0001
+   Shop #: WSC 00066 790 00072
+   ASAM Dataset: EV_AllWheelContrHA1VW37X 004013
+   ROD: EV_AllWheelContrHA1VW37X_004_VW37.rod
+   VCID: 4ACD7178DC310D6AC1F-801E
+
+No fault code found.
+
+-------------------------------------------------------------------------------
+Address 42: Door Elect, Driver (J386)       Labels:| 5QX-959-X93-42.clb
+   Part No SW: 5Q4 959 593 E    HW: 5Q4 959 593 B
+   Component: TSG FS        011 0032  
+   Serial number: 5038723800747  Dataset Number: V03935265HB 0001
+   Coding: 003A03200000020000000000
+   Shop #: WSC 01383 790 50316
+   ASAM Dataset: EV_DCUDriveSideEWMAXCONT 006001
+   ROD: EV_DCUDriveSideEWMAXKLO.rod
+   VCID: 47CB484CCF23F002DE1-8012
+
+   Rear Driver Side Door Control Module: 
+   Subsystem 1 - Part No SW: 5Q4 959 811 D    HW: 5Q4 959 811 D  Labels: 5QX-959-81X-V1.CLB
+   Component: Fond FHSG DRV  007 0002 
+   Serial number: 00000000000006989251
+   Coding: 011000
+
+No fault code found.
+
+-------------------------------------------------------------------------------
+Address 44: Steering Assist (J500)       Labels:| 5Q0-909-144.clb
+   Part No SW: 5QM 909 144 A    HW: 5QM 909 144 A
+   Component: EPS_MQB_ZFLS  171 1072  
+   Dataset Number: V03935245KL 0001
+   Coding: 8102
+   Shop #: WSC 00066 790 00072
+   ASAM Dataset: EV_SteerAssisMQB 013144
+   ROD: EV_SteerAssisMQB_013.rod
+   VCID: 4FFB606C27532842961-801A
+
+No fault code found.
+
+-------------------------------------------------------------------------------
+Address 52: Door Elect, Pass. (J387)       Labels:| 5QX-959-X92-52.clb
+   Part No SW: 5Q4 959 592 E    HW: 5Q4 959 592 B
+   Component: TSG BFS       011 0032  
+   Serial number: 6038724802624  Dataset Number: V03935265HC 0001
+   Coding: 003A03200000020000000000
+   Shop #: WSC 01383 790 50316
+   ASAM Dataset: EV_DCUPasseSideEWMAXCONT 006001
+   ROD: EV_DCUPasseSideEWMAXKLO.rod
+   VCID: 46D54548C829E90A257-8012
+
+   Rear Passenger Door Control Module: 
+   Subsystem 1 - Part No SW: 5Q4 959 812 D    HW: 5Q4 959 812 D  Labels: 5QX-959-81X-V1.CLB
+   Component: Fond FHSG PSG  007 0002 
+   Serial number: 00000000000006871606
+   Coding: 091000
+
+No fault code found.
+
+-------------------------------------------------------------------------------
+Address 5F: Information Electr. (J794)       Labels:| 5G0-035-MIB-ENT2.clb
+   Part No SW: 5G6 035 868     HW: 5G6 035 868 
+   Component: MU-E--ER      671 8395  
+   Serial number: 31051700021447 Dataset Number: V03935263CR 0001
+   Coding: 02731200FF00000041220001001000009F0008D40000010000
+   Shop #: WSC 00066 790 07030
+   ASAM Dataset: EV_MUEnt4CGen2LGE 001041
+   ROD: EV_MUEnt4CGen2LGE_VW26.rod
+   VCID: 70B9C3909A2D17BAAFB-8024
+
+No fault code found.
+
+End----------(Elapsed Time: 01:13, VBatt start/end: 14.5V/14.5V)-----------
